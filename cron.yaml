@@ -1,0 +1,9 @@
+cron:
+- description: yoruho schedule
+  url: /yoruho
+  schedule: every mon,tue,wed,thu,fri,sat,sun of jan,feb,mar,apr,may,jun,jul,aug,sep,oct,nov,dec 00:00
+  timezone: Asia/Tokyo
+- description: search jazzout
+  url: /search_jazzout
+  schedule: every 3 minutes
+  timezone: Asia/Tokyo
